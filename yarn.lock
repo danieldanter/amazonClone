@@ -419,6 +419,11 @@
   "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
   "version" "9.3.0"
 
+"@heroicons/react@^2.0.18":
+  "integrity" "sha512-7TyMjRrZZMBPa+/5Y8lN0iyvUU/01PeMGX2+RE7cQWpEUIcb4QotzUObFkJDejj/HUH4qjP/eQ0gzzKs2f+6Yw=="
+  "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-2.0.18.tgz"
+  "version" "2.0.18"
+
 "@napi-rs/triples@^1.0.3":
   "integrity" "sha512-XQr74QaLeMiqhStEhLn1im9EOMnkypp7MZOwQhGzqp2Weu5eQJbpPxWxixxlYRKWPOmJjsk6qYfYH9kq43yc2w=="
   "resolved" "https://registry.npmjs.org/@napi-rs/triples/-/triples-1.1.0.tgz"
