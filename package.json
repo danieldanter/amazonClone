@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "16.x"
+  },
   "name": "with-redux-toolkit",
   "version": "1.0.0",
   "scripts": {
@@ -11,10 +14,10 @@
     "@tailwindcss/line-clamp": "^0.2.0",
     "firebase": "^8.6.1",
     "firebase-admin": "^9.8.0",
-    "next": "latest",
-    "react": "17.0.1",
+    "next": "11.x.x",
+    "react": "^17.0.2",
     "react-currency-formatter": "^1.1.0",
-    "react-dom": "17.0.1",
+    "react-dom": "^17.0.2",
     "react-redux": "7.2.2"
   },
   "license": "MIT",
