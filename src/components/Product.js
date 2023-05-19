@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { StarIcon } from '@heroicons/react/solid';
-import { NumericFormat } from 'react-number-format';;
 
-//   <NumericFormat value={price} displayType={'text'} thousandSeparator={true} prefix={'£'} />
 const MAX_RATING = 5;
 const MIN_RATING = 1;
 
 function Product({ id, title, price, description, category, image }) {
-  const [rating] = React.useState(
-    Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING
-  );
+  const [rating, setRating] = useState();
+  const [hasPrime, setHasPrime] = useState();
 
-  const [hasPrime] = React.useState(Math.random() < 0.5);
+  useEffect(() => {
+    setRating(Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING);
+    setHasPrime(Math.random() < 0.5);
+  }, []);
 
   return (
     <div className='relative flex flex-col m-5 bg-white z-30 p-10'>
