@@ -12,7 +12,7 @@ export default function Home({ products }) {
   
      <Header />
 
-     <main className="max-w-screen-2xl my-auto">
+     <main className="max-w-screen-2xl mx-auto flex flex-col justify-center items-center">
         {/* Banner */}
         <Banner />
         {/* Product Feed */}
